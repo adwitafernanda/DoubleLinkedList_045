@@ -131,5 +131,7 @@ void DoubleLinkedList::descending() {
 }
 
 void DoubleLinkedList::hapus() {
-
+	if (listEmpty()) {
+		cout << "\nlist is empty" << endl;
+	}
 }
