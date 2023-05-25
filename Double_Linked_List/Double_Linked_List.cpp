@@ -178,6 +178,17 @@ int main() {
 			char ch;
 			cin >> ch;
 
+			switch (ch) {
+			case'1':
+				obj.addNode();
+				break;
+			case'2':
+				obj.hapus();
+				break;
+			case'3':
+				obj.ascending();
+				break;
+			}
 		}
 	}
 }
