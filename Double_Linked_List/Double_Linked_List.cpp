@@ -195,8 +195,7 @@ int main() {
 				obj.searchData();
 				break;
 			case'6':
-				obj.addNode();
-				break;
+				return 0;
 			}
 		}
 	}
