@@ -188,6 +188,15 @@ int main() {
 			case'3':
 				obj.ascending();
 				break;
+			case'4':
+				obj.descending();
+				break;
+			case'5':
+				obj.searchData();
+				break;
+			case'6':
+				obj.addNode();
+				break;
 			}
 		}
 	}
