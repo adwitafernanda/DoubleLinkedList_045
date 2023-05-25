@@ -22,4 +22,14 @@ public:
 	bool listEmpty();
 	void ascending();
 	void descending();
+	void hapus();
+	void searchData();
 };
+
+DoubleLinkedList::DoubleLinkedList() {
+	START = NULL;
+}
+
+void DoubleLinkedList::addNode() {
+
+}
