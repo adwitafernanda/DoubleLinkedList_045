@@ -118,7 +118,7 @@ void DoubleLinkedList::descending() {
 	if (listEmpty())
 		cout << "\nlistEmpty" << endl;
 	else {
-		cout << "\nRecords in descending order of roll number are: " << endl;
+		cout << "\nRecords in descending order of roll number are: " << endl; 
 		Node* currentNode = START;
 		while (currentNode->next != NULL)
 			currentNode = currentNode->next; 
