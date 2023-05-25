@@ -157,7 +157,28 @@ void DoubleLinkedList::searchData() {
 	if (DoubleLinkedList::search(num, &prev, &curr) == false)
 		cout << "\nRecord not found" << endl;
 	else {
-		cout << ""
+		cout << "\nRecord found" << endl;
+		cout << "\nRoll number: " << curr->noMhs << endl;
+		cout << "\nName: " << curr->name << endl;
+	}
+}
+
+int main() {
+	DoubleLinkedList obj;
+	while (true) {
+		try {
+			cout << "\nMenu" << endl;
+			cout << "1. Add a record to the list" << endl;
+			cout << "2. Delete a recprd from the list" << endl;
+			cout << "3. View all records in the ascending order of roll numbers" << endl;
+			cout << "4. View all record in the descending order of roll numbers" << endl;
+			cout << "5. search for a record in the list" << endl;
+			cout << "6. Exit" << endl;
+			cout << "\nEnter your choice (1-6); ";
+			char ch;
+			cin >> ch;
+
+		}
 	}
 }
 
